@@ -1,0 +1,15 @@
+{
+  "name": "enocean-handler",
+  "version": "1.0.0",
+  "description": "An easy way to listen for button presses from Enocean Energy Harvesting Rocker Switches.",
+  "main": "buttonPressHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Engebretson <adam@enge.me>",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^1.7.4",
+    "serialport-enocean-parser": "0.0.2"
+  }
+}
