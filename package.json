@@ -1,6 +1,6 @@
 {
     "name": "enocean-handler",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An easy way to listen for button presses from Enocean Energy Harvesting Rocker Switches.",
     "main": "buttonPressHandler.js",
     "repository": {
