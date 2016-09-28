@@ -4,10 +4,11 @@ var packetDecoder = require('./packetDecoder');
 
 var Handler = function(dev, callbacks) {
 
-    var port = new serialport.SerialPort(dev, {
+    var port = new serialport(dev, {
         baudrate: 57600,
-        parser: esp3parser
-    }, false);
+        parser: esp3parser,
+        autoOpen: false
+    });
 
     port.open(function(error) {
         if (error) {
